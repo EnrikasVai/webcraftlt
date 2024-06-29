@@ -1,0 +1,65 @@
+/*
+ Theme Name: Web 2.0
+ Theme URI: http://example.com/
+ Author: Your Name
+ Author URI: http://example.com/
+ Description: A custom theme for WordPress.
+ Version: 1.0
+ License: GNU General Public License v2 or later
+ License URI: LICENSE
+ Tags: custom, theme
+ Text Domain: web2.0
+*/
+
+/* Add your custom styles here */
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Optional: Set some basic styles */
+body {
+    line-height: 1.6;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+button, input, textarea {
+    font-family: inherit;
+}
+@media (max-width:500px) {
+    .banner{
+        font-size: 50px !important;
+    }
+}
+.space-grotesk {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
